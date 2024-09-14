@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&family=Poppins:wght@100;500;600;800;900&family=Lobster+Two:ital,wght@0,400;0,700;1,400&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Ewert&family=Kalnia+Glaze:wght@100..700&family=Lily+Script+One&family=Luckiest+Guy&family=Saira+Stencil+One&display=swap');
 /* GLOBAL CONFIG RESET */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Coiny", system-ui;
 }
 
 select:focus,
@@ -34,15 +35,15 @@ body {
 
 .container .box {
   transform-style: preserve-3d;
-  animation: animate 7s ease-in-out infinite alternate;
+  animation: animate 6s ease-in-out infinite alternate;
 }
 
 .container .box span {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) 90%, transparent);
+  background: linear-gradient(90deg, rgba(129, 59, 59, 0.1), rgba(0, 0, 0, 0.5) 90%, transparent);
   text-transform: uppercase;
   line-height: 0.76em;
   position: absolute;
-  color: #fff;
+  color: #dce89b;
   font-size: 3.5em;
   white-space: nowrap;
   font-weight: bold;
@@ -57,11 +58,11 @@ body {
 }
 
 .container .box span i:nth-child(1) {
-  color: #5c5fc4;
+  color: #5ca3c4;
 }
 
 .container .box span i:nth-child(2) {
-  color: #c4c15c;
+  color: #5cc4b1;
 }
 
 @keyframes animate {
@@ -73,6 +74,7 @@ body {
     transform: perspective(50px) rotateX(360deg) rotate(5deg);
   }
 }
+
 
 /* -------- PSEUDO CLASS --------- */
 /* -------- MEDIA QUERY --------- */
